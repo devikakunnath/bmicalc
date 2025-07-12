@@ -35,7 +35,7 @@ class _bcState extends State<bc> {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(15),
             gradient: LinearGradient(
-              colors: [Colors.orange, Colors.red],
+              colors: [Colors.blueGrey, Colors.blueAccent],
               begin: Alignment.topRight,
             ),
           ),
@@ -63,7 +63,7 @@ class _bcState extends State<bc> {
                               borderRadius: BorderRadius.circular(15),
                               borderSide: BorderSide.none,
                             ),
-                            hintText: "enter your hieght",
+                            hintText: "enter your height",
                             prefixIcon: Icon(Icons.height),
                             filled: true,
                             labelText: "height(cm)",
@@ -102,7 +102,7 @@ class _bcState extends State<bc> {
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(15),
                             gradient: LinearGradient(
-                              colors: [Colors.yellow, Colors.orange],
+                              colors: [Colors.lightBlueAccent, Colors.grey],
                               begin: Alignment.centerLeft,
                             ),
                           ),
